@@ -9,18 +9,19 @@ Luego usá el mismo puntero para contar cuántos caracteres tiene la cadena (sin
 #include<stdlib.h>
 
 int main(){
-    char arr[] = "Hola";
+    char arr[] = "Hola"; //declaracion de arreglo
 
-    char *p = arr;
+    char *p = arr; //arreglo que apunta al inicio del arreglo
 
-    int tamanio = 0;
+    int tamanio = 0; //variable para obtener tamanio de el arreglo
 
+    //while para sacar el tamanio, y para imprimir caracter por caracter
     while(*p != '\0'){
         printf("%c\n", *p);
         tamanio++;
         p++;
     }
 
-    printf("Tamanio de arreglo: %d\n", tamanio);
+    printf("Tamanio de arreglo: %d\n", tamanio); //impresion de tamanio de arreglo
 
 }
