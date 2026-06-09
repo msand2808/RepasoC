@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/* 4. Escribe void duplicar(int *n) que duplique el valor recibido. */
+/*Escribe void duplicar(int *n) que duplique el valor recibido. */
 
 void duplicar(int *n);
 
